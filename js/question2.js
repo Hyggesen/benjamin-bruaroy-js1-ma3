@@ -7,7 +7,7 @@ const resultsArray = await response.json();
 const games = resultsArray.results;
 const resultsHtml = document.querySelector(".results");
 
-
+resultsHtml.innerHTML = ""; 
 for(let i = 0; i <8; i++) {
 resultsHtml.innerHTML += `
 <div class="wrapper">

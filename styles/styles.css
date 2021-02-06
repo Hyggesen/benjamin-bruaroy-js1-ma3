@@ -21,6 +21,11 @@
   align-items: center;
 }
 
+.loader {
+  font-size: 30px;
+  color: blue;
+}
+
 .results span {
   font-size: 15px;
   font-weight: 600;
