@@ -1,0 +1,45 @@
+.question1 p {
+  color: red;
+  font-size: 25px;
+}
+
+.results {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  text-align: center;
+  flex-wrap: wrap;
+  background-color: yellowgreen;
+  padding: 2em;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.results span {
+  font-size: 15px;
+  font-weight: 600;
+}
+.name {
+  background-color: rgb(211, 211, 255);
+  width: 100px;
+  height: 50px;
+  width: 250px;
+}
+
+.rating {
+  background-color: rgb(7, 199, 167);
+  height: 50px;
+  width: 250px;
+}
+
+.tags {
+  background-color: yellow;
+  height: 50px;
+  width: 250px;
+}
